@@ -128,3 +128,6 @@ while True:
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RETURN:
                     running = False
+    
+>>> hyperlink_format.format(link='https://hackmd.io/@hsiNN/SJ9ZBzvV5/https%3A%2F%2Fhackmd.io%2F%40St418%2Fr1A00A4W9', text='貪吃蛇實作')
+'<a href="https://hackmd.io/@hsiNN/SJ9ZBzvV5/https%3A%2F%2Fhackmd.io%2F%40St418%2Fr1A00A4W9">貪吃蛇實作</a>' # 源碼來源
